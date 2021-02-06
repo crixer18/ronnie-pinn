@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+  
+  
+<div class="container">
+  <?php
+      //$color = "red";
+      #echo "My car is " . $color . "<br>";
+  ?>
+
+    <div class="page-header">
+      <h1>Example page header <small>Subtext for header</small></h1>
+    </div>
+
+    <div class="form_space">
+		<form name="nform" action="home.php" method="get">
+			<p class="lead">Ecco un posto bellissimo:</p>
+			<select name="q1" id="place-select" ><!--required-->
+    		<option value=""></option>
+    		<option value="netflix">Netflix</option>
+    		<option value="facebook">Facebook</option>
+    		<option value="biblioteca">La biblioteca</option>
+			</select>
+			<br>
+
+			<p class="lead">Non puoi stare senza:</p>
+			<select name="q2" id="activity-select" ><!--required-->
+				<option value=""></option>
+				<option value="classici">I classici</option>
+				<option value="novita">Le novità</option>
+				<option value="dalmondo">Le notizie</option>
+			</select>
+			<br>
+
+			<p class="lead">Una sola cosa salverà il mondo:</p>
+			<select name="q3" id="values-select" ><!--required-->
+				<option value=""></option>
+				<option value="bellezza">La bellezza</option>
+				<option value="politica">La politica</option>
+				<option value="scienza">La scienza</option>
+			</select>
+
+			<hr>
+			<button type="submit" >Vai!</button>
+			<!--<input type="submit" value="Submit" onclick="calcola()">-->
+
+		</form>
+	</div>
+
+
+    </div>
+
+
+  </body>
+</html>
