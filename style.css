@@ -1,0 +1,10 @@
+body { padding-top: 100px;}
+
+.navbar-brand, .navbar-nav > li > a {
+  height: 80px;
+  line-height: 50px;
+}
+
+.page-header {
+  border-bottom: 2px dotted #eee;
+}
