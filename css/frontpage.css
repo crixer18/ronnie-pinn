@@ -1,20 +1,26 @@
-.frontpage{
+#frontpage p{
   padding-top: 20%;
   margin-left: 60%;
-  font-size:40px;
 }
 
-.frontpage a:hover{
-  text-decoration: line-through;
-    text-decoration-color: lightgrey;
-
+#frontpage a:hover{
+  text-decoration-line: none;
 }
 
-.start{
+#intro{
+  font-size: 40px;
+}
+
+#start{
   font-weight: 400;
   color: grey;
   font-size: 30px;
   display: inline;
+}
+
+#start:hover{
+  text-decoration-line: line-through;
+  text-decoration-color: lightgrey;
 }
 
 .arrow {
