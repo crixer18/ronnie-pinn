@@ -1,14 +1,22 @@
-#frontpage p{
-  padding-top: 20%;
-  margin-left: 60%;
+.home-content{
+  max-width: 1100px;
+  margin:auto;
+  margin-top: 3%;
 }
 
-#frontpage a:hover{
+.frontpage p{
+  padding-top: 20%;
+  margin-left: 60%;
+  font-size: 40px;
+}
+
+.frontpage a{
+
   text-decoration-line: none;
 }
 
-#intro{
-  font-size: 40px;
+.frontpage a:hover{
+  text-decoration-line: none;
 }
 
 #start{
