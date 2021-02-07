@@ -25,6 +25,7 @@ body{
 
 .content p{
   font-size: 18px;
+  line-height: 1.4em;
 }
 
 h1,
@@ -63,7 +64,30 @@ a:hover{
 .credits{
   color:gray;
   font-weight: 300;
+  font-family: roboto;
   position: fixed;
   bottom: 0;
   padding-left: 10px;
+}
+
+.bottom-note{
+  font-family: roboto-slab, serif;
+  font-weight: 400;
+  color:gray;
+  position: fixed;
+  bottom: 0;
+  padding-left: 10px;
+}
+
+.arrow {
+  border: solid lightgrey;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-right: 15px;
+}
+
+.arr-right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
