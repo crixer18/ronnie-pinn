@@ -1,0 +1,69 @@
+body{
+  background-color: #080E33;
+  margin: 0 0 0 0;
+}
+
+#alert {
+    background-color: #6B1C25;
+    padding: 20px 2px 20px 2px;
+    border-bottom: solid 1px red;
+}
+
+#alert p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.content{
+  max-width: 1100px;
+  margin:auto;
+  margin-top: 3%;
+}
+
+.content p{
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+  color: white;
+  font-family: roboto;
+}
+
+a{
+  color: lightgrey;
+  text-decoration: none;
+  font-family: roboto;
+}
+
+a:hover{
+  color:white;
+  text-decoration: overline underline;
+}
+
+.site-title{
+  font-family: roboto-slab, serif;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.site-title:hover{
+  text-decoration: none;
+}
+
+.credits{
+  color:gray;
+  font-weight: 300;
+  position: fixed;
+  bottom: 0;
+  padding-left: 10px;
+}
