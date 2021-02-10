@@ -1,3 +1,5 @@
+@media only screen and (min-width: 1100px) {
+
 body{
   background-color: #080E33;
   margin: 0 0 0 0;
@@ -51,12 +53,6 @@ a:hover{
   text-decoration: overline underline;
 }
 
-.site-title{
-  font-family: roboto-slab, serif;
-  font-weight: 400;
-  font-size: larger;
-}
-
 .site-title:hover{
   text-decoration: none;
 }
@@ -90,4 +86,13 @@ a:hover{
 .arr-right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+}
+
+}
+
+.site-title{
+  font-family: roboto-slab, serif;
+  font-weight: 400;
+  font-size: larger;
+  text-align: center;
 }

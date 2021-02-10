@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: white;
+  }
+
+  .left-col {
+    width: 100%;
+  }
+}
