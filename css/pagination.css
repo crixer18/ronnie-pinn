@@ -1,0 +1,109 @@
+*{
+    color:#ddd;
+    font-family: cy, sans-serif;
+    font-weight: 400;
+}
+
+body{
+  background-color: #080E33;
+  margin: 0 0 0 0;
+}
+
+@media only screen and (min-width: 700px) {
+  main,footer {
+    padding:30px 0;
+    margin-left: 23%;
+    margin-right: 23%;
+    max-width: 800px;
+  }
+
+  .navarrow{
+    width: 30px;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    background-color: #323860;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+  }
+
+  header{
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #999;
+  }
+
+  span.title{
+   font-weight: 800;
+   font-size: xx-large;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  main,footer, header {
+    margin-right:55px;
+    margin-left:55px;
+  }
+  .navarrow{
+    width: 10px;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    background-color: #323860;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+  }
+
+  header{
+    padding: 15px 0px 15px 0px;
+    border-bottom: 2px solid #999;
+  }
+
+  span.title{
+   font-weight: 800;
+   font-size: x-large;
+}
+}
+
+.title a{
+    text-decoration: none;
+}
+
+div.title{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-nav{
+    left:0px;
+}
+.right-nav{
+    right:0px;
+}
+.navarrow .fas{
+    color: #080E33;
+    font-size: 2em;
+    position: relative;
+    top: 40%;
+    align-content: center;   
+}
+.navarrow .fas a{
+  text-decoration: none;
+}
+.navarrow .fas:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  font-size: small;
+  padding-bottom: 15px;
+  padding-top: 50px;
+}

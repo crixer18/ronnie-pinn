@@ -1,0 +1,8 @@
+a{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+a:hover{
+   text-decoration-style:solid; 
+}

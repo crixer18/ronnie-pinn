@@ -1,0 +1,67 @@
+p, li{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p strong{
+    font-weight: 600;
+    color:inherit;
+    font-style: inherit;
+}
+
+p em{
+    color:inherit;
+    font-weight: inherit;
+}
+
+ol.index li{
+    margin-bottom: 15px;
+}
+ul{
+    margin-top: 10px;
+}
+
+h1, h2, h3{
+    font-weight: 700;
+}
+
+h1{
+    border-bottom: 2px solid #EBAAA2; 
+    padding-bottom: 10px;
+    margin-bottom:30px;
+}
+
+h2{
+    padding-top:25px;
+}
+
+span.fonti, a.fonti{
+    font-weight: inherit;
+    font-style: inherit;
+    color: #EBAAA2;
+}
+
+p.quote{
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+}
+
+ol.quote li{
+    font-size: 18px;
+    padding: 0 30px 0 30px;
+}
+
+hr{
+    border: 0.5px solid #EBAAA2; 
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.barecrumb{
+    color:#EBAAA2;
+    font-size: medium;
+    display: block;
+    text-align: right;
+    margin-top:20px;
+    margin-bottom:40px;
+}
